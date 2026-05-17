@@ -4,8 +4,8 @@ LogiHub es un ecosistema de microservicios diseñado para automatizar y optimiza
 
 El proyecto está construido bajo una arquitectura orientada a microservicios utilizando Spring Boot, Spring Cloud OpenFeign para la intercomunicación y persistencia independiente por componente.
 
-Arquitectura del EcosistemaEl flujo de información sigue un patrón coreográfico basado en responsabilidades bien delimitadas:\Catalog/Users\Orders\Inventory\Payments\Shipping/Tracking/Notifications/Reviews
-
+Arquitectura del EcosistemaEl flujo de información sigue un patrón coreográfico basado en responsabilidades bien delimitadas:
+$$\text{Catalog/Users} \longrightarrow \text{Orders} \longrightarrow \text{Inventory} \longrightarrow \text{Payments} \longrightarrow \text{Shipping/Tracking/Notifications/Reviews}$$
 Componentes y Responsabilidades
 
 El sistema se compone de los siguientes **9 microservicios** independientes:
